@@ -36,7 +36,7 @@ class Matrix {
 	
 	
 	long end = System.currentTimeMillis();
-	System.out.printf(n+","+"%.6f\n", (end - begin) / 1000.0);
+	System.out.printf("i="+n+","+"%.6f,", (end - begin) / 1000.0);
 	
 	// Print C for debugging. Comment out the print before measuring the execution time.
 	double sum = 0;
@@ -48,6 +48,6 @@ class Matrix {
 	}
 	// Print out the sum of all values in C.
 	// This should be 450 for N=3, 3680 for N=4, and 18250 for N=5.
-	//System.out.printf("%.6f\n", sum);
+	System.out.printf("%.6f\n", sum);
     }
 }
